@@ -22,3 +22,10 @@ variable "enable_puclic_ip" {
   default     = true
 
 }
+
+output "public_ip" {
+  
+  value=[aws_instance.one.public_ip, aws_instance.one.private_ip, aws_instance.one.public_dns]
+  
+}
+

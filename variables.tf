@@ -8,7 +8,7 @@
 #   description = "value"
 #   type = string
 #   default = "us-west-2a"
-  
+
 # }
 # variable "instance_type" {
 #   description = "type of instance"
@@ -21,12 +21,12 @@
 #   description = "value of provider"
 #   type = string
 #   default = "us-west-2"
-  
+
 # }
 
 variable "instance_count" {
-    description = "create instance"
-    type = number
-    default = 5
-  
+  description = "create instance"
+  type        = number
+  default     = 5
+
 }
